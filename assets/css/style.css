@@ -1,0 +1,62 @@
+/* RESET */
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+:root {
+    /* Cores de ação */
+    --color-primary: #00B074;
+    --color-primary-light: #E8F5F0;
+
+    /* Tipografia */
+    --color-text-primary: #171717;
+    --color-text-secondary: #6B7280;
+    --color-text-muted: #9CA3AF;
+
+    /* Superfícies */
+    --color-background: #FFFFFF;
+    --color-surface: #F9FAFB;
+    --color-border: #E5E7EB;
+
+    /* Feedback */
+    --color-positive: #00B074;
+    --color-negative: #EF4444;
+
+    /* Tipografia */
+    --font-family: 'Inter', sans-serif;
+    --font-size-base: 16px;
+    --line-height-base: 1.6;
+
+    /* Espaçamento base */
+    --spacing: 8px;
+
+    /* Transição */
+    --transition: 0.3s ease;
+
+    /* Border radius */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+    --radius-full: 999px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--color-background);
+    line-height: 1.6;
+    color: var(--color-text-primary);
+}
+
+main {
+    flex: 1;
+}
+
